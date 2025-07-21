@@ -1,0 +1,43 @@
+/* src/index.css */
+* {
+  font-family: "Times New Roman", Times, serif;
+}
+h1 {
+  text-align: center;
+}
+.board {
+  width: 310px;
+  margin: 0px auto;
+}
+.App {
+  text-align: center;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 70px;
+  font-weight: bold;
+  line-height: 100px;
+  height: 100px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 100px;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}

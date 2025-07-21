@@ -1,5 +1,5 @@
 import React from 'react'
-import Headers from '../components/Header'
+import Headers from '../Components/Header'
 
 function Home() {
   return (
